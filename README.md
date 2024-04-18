@@ -4,5 +4,6 @@ As a part of the Tableau Beta Preview, Tableau has enabled the new Viz Extension
 - https://www.tableau.com/blog/visual-analytics-tableau-viz-extensions
 - https://exchange.tableau.com/fr-FR/viz-extensions
 - https://newsletter.ladataviz.com/p/vizextensions-tableau-biggest-revolution
+- test en Beta : https://10ax.online.tableau.com/t/beta2504/views/VizExtension/RadialChart
 
 
