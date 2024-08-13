@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest manifest-version="0.1" xmlns="http://www.tableau.com/xml/extension_manifest">
+  <worksheet-extension id="com.ladataviz.extension.tree" extension-version="1.0.0">
+    <default-locale>en_US</default-locale>
+    <name resource-id="name"/>
+    <description>Tree</description>
+    <author name="Jessica Bautista / Tristan Guillevin" email="tristan@ladataviz.com" organization="LaDataViz" website="https://www.ladataviz.com"/>
+    <min-api-version>1.11</min-api-version>
+    <source-location>
+      <url>https://extensions.ladataviz.com/tree?licenseKey=D1A834B6-3FF5-4543-823E-414AD44D5E81</url>
+    </source-location>
+    <icon/>
+    <context-menu>
+      <configure-context-menu-item />
+    </context-menu>
+    <encoding id="size">
+      <display-name>Size</display-name>
+      <data-spec>
+        <data-type>numeric</data-type>
+      </data-spec>
+      <role-spec>
+        <role-type>continuous-measure</role-type>
+      </role-spec>
+      <fields max-count="1"/>
+      <encoding-icon token="size"/>
+      <tooltip resource-id="tooltip-size">Add a size to the nodes</tooltip>
+    </encoding>
+  </worksheet-extension> 
+  <resources>
+    <resource id="name">
+      <text locale="en_US">Tree</text>
+    </resource>
+  </resources>
+</manifest>

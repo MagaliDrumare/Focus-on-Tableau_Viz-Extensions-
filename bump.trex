@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest manifest-version="0.1" xmlns="http://www.tableau.com/xml/extension_manifest">
+  <worksheet-extension id="com.ladataviz.extension.bump" extension-version="1.0.0">
+    <default-locale>en_US</default-locale>
+    <name resource-id="name"/>
+    <description>Bump Chart</description>
+    <author name="Jessica Bautista / Tristan Guillevin" email="tristan@ladataviz.com" organization="LaDataViz" website="https://www.ladataviz.com"/>
+    <min-api-version>1.11</min-api-version>
+    <source-location>
+      <url>https://extensions.ladataviz.com/bump?licenseKey=D1A834B6-3FF5-4543-823E-414AD44D5E81</url>
+    </source-location>
+    <icon/>
+    <context-menu>
+      <configure-context-menu-item />
+    </context-menu>
+    <encoding id="xField">
+      <display-name>X Axis</display-name>
+      <role-spec>
+        <role-type>discrete-dimension</role-type>
+        <role-type>continuous-dimension</role-type>
+      </role-spec>
+      <fields max-count="1"/>
+      <encoding-icon token="arrow-right"/>
+    </encoding>
+    <encoding id="rank">
+      <display-name>Rank</display-name>
+      <role-spec>
+        <role-type>continuous-measure</role-type>
+        <role-type>continuous-dimension</role-type>
+        <role-type>discrete-dimension</role-type>
+        <role-type>discrete-measure</role-type>
+      </role-spec>
+      <fields max-count="1"/>
+      <encoding-icon token="arrow-up"/>
+    </encoding>
+    <encoding id="color">
+      <display-name>Color</display-name>
+      <role-spec>
+        <role-type>continuous-measure</role-type>
+        <role-type>continuous-dimension</role-type>
+        <role-type>discrete-dimension</role-type>
+        <role-type>discrete-measure</role-type>
+      </role-spec>
+      <fields max-count="1"/>
+      <encoding-icon token="color"/>
+    </encoding>
+  </worksheet-extension>
+  <resources>
+    <resource id="name">
+      <text locale="en_US">Bump Chart</text>
+    </resource>
+  </resources>
+</manifest>
